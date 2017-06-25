@@ -15,22 +15,22 @@ board = dict.fromkeys([1, 2, 3, 4, 5, 6, 7, 8, 9], ' ')
 
 
 def print_board():
-    print('| ' + board[1] + ' | ' + board[2] + ' | ' + board[3] + ' |')
+    print('| ' + board[7] + ' | ' + board[8] + ' | ' + board[9] + ' |')
     print('-------------')
     print('| ' + board[4] + ' | ' + board[5] + ' | ' + board[6] + ' |')
     print('-------------')
-    print('| ' + board[7] + ' | ' + board[8] + ' | ' + board[9] + ' |')
+    print('| ' + board[1] + ' | ' + board[2] + ' | ' + board[3] + ' |')
     print('-------------')
 
 
 def start():
     print("*****The game splits the board into 9 squares, and players enter which square they'd like to mark next. "
           "\nFirst player to go is X and second player is O"
-          "\n1 | 2 | 3"
+          "\n7 | 8 | 9"
           "\n---------"
           "\n4 | 5 | 6"
           "\n---------"
-          "\n7 | 8 | 9*****")
+          "\n1 | 2 | 3*****")
     print('')
     print('***GAME START***')
     for moves in range(1, 10):
